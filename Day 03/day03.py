@@ -1,5 +1,5 @@
 #Part 1
-with open("Day 3/input.txt") as f:
+with open("Day 03/input.txt") as f:
     adjacency_map = set()
     i = 0
     sum = 0

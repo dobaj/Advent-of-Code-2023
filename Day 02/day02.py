@@ -1,7 +1,7 @@
 # Part 1
 sum = 0
 maximums = {"red": 12, "green": 13, "blue": 14}
-with open("Day 2/input.txt") as f:
+with open("Day 02/input.txt") as f:
     for line in f:
         id = int(line.split()[1][:-1])
         games = line[line.index(":")+2:] # add 2 to account for space

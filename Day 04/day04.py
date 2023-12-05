@@ -1,6 +1,6 @@
 import re
 # Part 1
-with open("Day 4/input.txt") as f:
+with open("Day 04/input.txt") as f:
     card_sum = 0
     for line in f:
         card = 0

@@ -1,6 +1,6 @@
 import re
 # Part 1
-with open("Day 1/input.txt") as f:
+with open("Day 01/input.txt") as f:
     sum = 0
     for line in f:
         numbers = re.findall("[1-9]",line)
