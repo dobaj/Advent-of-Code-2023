@@ -18,5 +18,6 @@ if today.month == 12:
             file.close()
             file = open(f"Day {i:02}/input.txt","w")
             file.close()
-            break
+            print(f"Day {i:02} Generated")
+            exit(0)
     print("All folders/files up to date")
