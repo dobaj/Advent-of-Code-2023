@@ -63,5 +63,5 @@ with open("Day 15/input.txt") as f:
             power = map[i][j][1]*(i+1)*(j+1)
             # print(map[i][j][0], power)
             sum+=power
-    print(sum)
+    print("Part 2:",sum)
     
